@@ -3,6 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-size: 16px;
   font: inherit;
   vertical-align: baseline;
   font-family: 'Proxima Nova Rg';
@@ -17,61 +18,11 @@ html {
   background-color: #D8D8D8;
 }
 
-.swiper-slide-image {
-  text-align: center;
+ul {
+  list-style-type: none;
 }
 
-.swiper-slide-image img {
-  max-width: 100%; // Даёт картинке возможность сужаться
-}
-
-.swiper .swiper-button-next::after, 
-.swiper .swiper-button-prev::after {
-  color: #FFF;
-  font-size: 24px;
-}
-
-.swiper .swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
-  background-color: transparent;
-  border: 2px solid #FFF;
-}
-
-.swiper .swiper-pagination-bullet-active {
-  background-color: #FFF;
-}
-
-.main__swiper-box {
-  position: absolute;
-  background-color: #FFF;
-  padding: 20px;
-  top: 33%;
-  left: 12%;
-  text-align: left;
-}
-
-.main__swiper-box-header {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 18px;
-  text-transform: uppercase;
-}
-
-.main__swiper-box-text {
-  font-size: 14px;
-  color: rgb(68, 68, 68);
-  margin-bottom: 46px;
-}
-
-.main__swiper-box-button {
-  padding: 13px 19px 11px 19px;
-  background-color: rgb(158, 27, 50);
-  color: #FFF;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.fa-arrow-right-long {
-  margin-right: 15px;
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
 }

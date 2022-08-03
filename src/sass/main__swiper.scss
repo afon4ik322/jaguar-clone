@@ -1,0 +1,114 @@
+$red: rgb(158, 27, 50);
+
+.swiper {
+  height: calc(100vh - 72px); /* я гений */
+}
+
+.swiper-slide-image {
+  text-align: center;
+}
+
+.swiper-slide-image img {
+  width: 2000px;
+  max-width: 100%; // Даёт картинке возможность сужаться
+  height: calc(100vh - 72px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.swiper .swiper-button-next::after, 
+.swiper .swiper-button-prev::after {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 2px solid #FFF;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #FFF;
+}
+
+.main__swiper-box {
+  position: absolute;
+  background-color: #FFF;
+  padding: 20px;
+  top: 33vh;
+  left: 6vw;
+  text-align: left;
+  // Анимация
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 2s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 1s; /* Задержка перед началом */
+}
+
+@keyframes show{
+  0%{
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+}
+
+.main__swiper-box-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.main__swiper-box-text {
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+  margin-bottom:30px;
+}
+
+.main__swiper-box-button {
+  padding: 13px 19px 11px 19px;
+  background-color: $red;
+  color: #FFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.fa-arrow-right-long {
+  margin-right: 15px;
+}
+
+.swiper-button {
+  position: absolute;
+  left: calc(50% - 25px);
+  bottom: 0px;
+  z-index: 1;
+  button {
+    background-color: $red;
+    color: white;
+    border: 0px;
+    width: 50px;
+    height: 52px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+    i {
+      font-size: 24px;
+    }
+}
+
+#swiper-pagination {
+  text-align: left;
+  width: 10%;
+  left: 6vw;
+  bottom: 2vw;
+}

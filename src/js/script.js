@@ -12,12 +12,12 @@ new Swiper('.swiper', {
   },
   grabCursor: true, // Стиль курсора
   loop: true,
-  // autoplay: {
-  //   // Длительность слайда
-  //   delay: 6000,
-  //   // Отключить после ручного перекл
-  //   disableOnInteraction: false, 
-  // },
+  autoplay: {
+    // Длительность слайда
+    delay: 6000,
+    // Отключить после ручного перекл
+    disableOnInteraction: false, 
+  },
   effect: 'fade',
   fadeEffect: {
     crossFade: true,

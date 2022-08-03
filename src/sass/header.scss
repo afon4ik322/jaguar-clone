@@ -1,0 +1,46 @@
+.header {
+  background-color: #FFF;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  min-width: 173px;
+  text-align: center;
+}
+
+.header-left img {
+  max-width: 117px;
+}
+
+.header-left-nav {
+  display: flex;
+  li {
+    padding: 0 10px; 
+  }
+  a{
+    color: black;
+    font-weight: 600;
+    letter-spacing: .15em;
+    // font-size: 1em;
+    font-size: 8px;
+    font-family: 'Jaguar Bold';
+  }
+}
+
+.header-right ul {
+  display: flex;
+  li {
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+}
