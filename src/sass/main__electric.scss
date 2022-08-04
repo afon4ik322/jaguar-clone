@@ -1,0 +1,34 @@
+.main__electric {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__electric-text {
+  padding: 70px 40px 70px 90px;
+  max-width: 40vw;
+}
+
+.main__electric-image img {
+  width: 64vw;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main__electric-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.main__electric-desc {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.main__electric-button {
+  padding: 13px 20px;
+}

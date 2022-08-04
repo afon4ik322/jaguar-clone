@@ -9,6 +9,7 @@
 .header-left {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 
 .header-logo {
@@ -22,16 +23,24 @@
 
 .header-left-nav {
   display: flex;
+  align-items: center;
+  height: 72px;
   li {
     padding: 0 10px; 
+    height: 100%;
   }
   a{
     color: black;
     font-weight: 600;
     letter-spacing: .15em;
-    // font-size: 1em;
     font-size: 8px;
     font-family: 'Jaguar Bold';
+    display: block;
+    height: 100%;
+    padding-top: 28px;
+  }
+  a:hover {
+    background-color: #F0F0F0;
   }
 }
 
@@ -42,5 +51,8 @@
     display: flex;
     justify-content: center;
     font-size: 1.3em;
+    a {
+      color: black;
+    }
   }
 }

@@ -23,14 +23,17 @@ $red: rgb(158, 27, 50);
 }
 
 .swiper .swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background-color: transparent;
   border: 2px solid #FFF;
+  box-shadow: 0 0 6px 3px rgba(74,144,226,0),0 1px 4px 0 rgba(0,0,0,0.5),inset 0 1px 4px 0 rgba(0,0,0,0.1);
+  opacity: 1;
 }
 
 .swiper .swiper-pagination-bullet-active {
   background-color: #FFF;
+  border: 2px solid transparent;
 }
 
 .main__swiper-box {
@@ -72,10 +75,6 @@ $red: rgb(158, 27, 50);
 
 .main__swiper-box-button {
   padding: 13px 19px 11px 19px;
-  background-color: $red;
-  color: #FFF;
-  font-weight: 700;
-  text-transform: uppercase;
   display: block;
 }
 
@@ -89,17 +88,10 @@ $red: rgb(158, 27, 50);
   bottom: 0px;
   z-index: 1;
   button {
-    background-color: $red;
-    color: white;
-    border: 0px;
     width: 50px;
     height: 52px;
     transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  button:hover {
-    background-color: white;
-    color: black;
+    border: 0px;
   }
     i {
       font-size: 24px;
