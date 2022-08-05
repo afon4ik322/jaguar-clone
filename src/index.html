@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="sass/main__swiper.scss">
   <link rel="stylesheet" href="sass/main__update.scss">
   <link rel="stylesheet" href="sass/main__electric.scss">
+  <link rel="stylesheet" href="sass/main__cards.scss">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   
 </head>
@@ -98,10 +99,16 @@
 
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
-        <div class="swiper-button"><button><i class="fa-solid fa-arrow-down-long"></i></button></div>
+        <div class="swiper-button">
+          <a href="#main__update">
+            <button>
+              <i class="fa-solid fa-arrow-down-long"></i>
+            </a>
+          </button>
+        </div>
       </div>
 
-      <div class="main__update">
+      <div class="main__update" id="main__update">
         <h2 class="main__update-header">UPDATE ON VEHICLE AVAILABILITY</h2>
         <p class="main__update-desc">Due to the global shortage of semiconductors – which are essential to the manufacturing of new vehicles – we anticipate that delivery of some vehicles will be extended.</p>
         <button class="main__update-button"><i class="fa-solid fa-arrow-right-long"></i><span class="main__swiper-box-button-text">VIEW ALL VEHICLE AVAILABILITY</span></button>
@@ -117,7 +124,108 @@
           <img src="images/main__electric.webp" alt="Image">
         </div>
       </div>
-    
+
+      <div class="main__cards">
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-1.jpg" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR F‑PACE</div>
+          <div class="main__card-price">OTR Price From: £46,250</div>
+          <div class="main__card-desc">Luxury performance SUV offering practicality and efficiency.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR F‑PACE</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-2.jpg" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR E‑PACE</div>
+          <div class="main__card-price">OTR Price From: £38,220</div>
+          <div class="main__card-desc">Jaguar’s first compact SUV is a unique combination of looks, agility and dynamic driving.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR E‑PACE</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-3.jpg" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR I-PACE</div>
+          <div class="main__card-price">OTR Price From: £66,350</div>
+          <div class="main__card-desc">Introducing Jaguar's first all-electric performance SUV.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR I‑PACE</span></a>
+          </div>
+        </div>
+      
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-4.webp" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR F‑TYPE</div>
+          <div class="main__card-price">OTR Price From: £58,275</div>
+          <div class="main__card-desc">Pulse-quickening, pure Jaguar sports car.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR F‑TYPE</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-5.jpg" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR XE</div>
+          <div class="main__card-price">OTR Price From: £32,205</div>
+          <div class="main__card-desc">XE is a dynamic, exciting newcomer. It’s also our most advanced, efficient and refined compact sports saloon ever. With five models, find your blend of performance and luxury.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR XE</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-6.jpg" alt="">
+          </div>
+          <div class="main__card-header">JAGUAR XF</div>
+          <div class="main__card-price">OTR Price From: £35,100</div>
+          <div class="main__card-desc">XF’s assertive design stands out from the crowd. An unrivalled combination of comfort, refinement and performance – XF is a dynamic luxury business saloon.</div>
+          <button class="main__card-button"><i class="fa-solid fa-car"></i><span>BUILD YOUR OWN</span></button>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>EXPLORE JAGUAR XF</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-7.webp" alt="">
+          </div>
+          <div class="main__card-header">SPECIAL VEHICLE OPERATIONS</div>
+          <div class="main__card-desc">Luxury, performance and capability taken to new levels to create unique Jaguar vehicles.</div>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>FIND OUT MORE</span></a>
+          </div>
+        </div>
+
+        <div class="main__card">
+          <div class="main__card-image">
+            <img src="images/card-8.jpg" alt="">
+          </div>
+          <div class="main__card-header">GO ELECTRIC WITH JAGUAR</div>
+          <div class="main__card-desc">Simple and accessible charging, significant cost savings and a more sustainable driving experience. The electrifying world of Jaguar awaits.</div>
+          <div class="main__card-link">
+            <a href=""><i class="fa-solid fa-angle-right"></i><span>FIND OUT MORE</span></a>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 

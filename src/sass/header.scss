@@ -26,7 +26,6 @@
   align-items: center;
   height: 72px;
   li {
-    padding: 0 10px; 
     height: 100%;
   }
   a{
@@ -37,6 +36,7 @@
     font-family: 'Jaguar Bold';
     display: block;
     height: 100%;
+    padding: 0px 10px;
     padding-top: 28px;
   }
   a:hover {
