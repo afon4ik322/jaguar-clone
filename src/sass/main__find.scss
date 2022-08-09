@@ -1,0 +1,50 @@
+.main__find {
+  background-color: #F0F0F0;
+  padding-top: 74px;
+  padding-bottom: 56px;
+}
+
+.main__find-header {
+  font-size: 2.4rem;
+  letter-spacing: .52rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottom-swiper .swiper-button-next::after, 
+.bottom-swiper .swiper-button-prev::after {
+  color: black;
+  font-size: 24px;
+}
+
+.swiper-button-disabled {
+  visibility: hidden;
+}
+
+// .bottom-swiper {
+//   padding: 56px 90px !important;
+// }
+
+.bottom-swiper-pagination {
+  position: static;
+  text-align: left;
+
+}
+
+.bottom-swiper-slide {
+  width: calc((100% - 90px) / 3) !important;
+}
+
+.swiper2-slide-image img {
+  width: 580px;
+  height: 330px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.swiper2-slide-image img:hover {
+  filter: brightness(.8);
+  transition: 0.5s;
+}

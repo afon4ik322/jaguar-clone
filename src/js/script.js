@@ -1,4 +1,4 @@
-new Swiper('.swiper', {
+new Swiper('.top-swiper', {
   // Стрелки
   navigation: {
     nextEl: '.swiper-button-next',
@@ -22,4 +22,22 @@ new Swiper('.swiper', {
   fadeEffect: {
     crossFade: true,
   }
+});
+
+new Swiper('.bottom-swiper', {
+  // Стрелки
+  navigation: {
+    nextEl: '.bottom-swiper-button-next',
+    prevEl: '.bottom-swiper-button-prev'
+  },
+  // Навигация
+  // Буллеты, текущее положение, прогрессбар
+  pagination: {
+    el: '.bottom-swiper-pagination',
+    clickable: true,
+  },
+  grabCursor: true, // Стиль курсора
+  slidesPerView: 3,
+  spaceBetween: 40,
+  slidesPerGroup: 3,
 });

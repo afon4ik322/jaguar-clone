@@ -1,0 +1,41 @@
+.main__build {
+  background-image: url(../images/swiper-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 480px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.main__build-block {
+  padding: 20px;
+  background-color: rgba(20, 20, 20, 0.9);
+}
+
+.main__build-block-header {
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.main__build-block-desc {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.main__build-block-button {
+  padding: 12px 20px;
+}
+
+.main__build-block-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: 0.5s;
+}
