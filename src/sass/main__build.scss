@@ -8,11 +8,18 @@
   display: flex;
   align-items: center;
   padding-left: 100px;
+  @media screen and (max-width:900px) {
+    padding-left: 40px;
+    height: 400px;
+  }
 }
 
 .main__build-block {
   padding: 20px;
   background-color: rgba(20, 20, 20, 0.9);
+  @media screen and (max-width:900px) {
+    max-width: 280px;
+  }
 }
 
 .main__build-block-header {

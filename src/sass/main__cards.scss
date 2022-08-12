@@ -79,3 +79,23 @@ $red: rgb(158, 27, 50);
     transition: 1.2s;
   }
 }
+
+@media screen and (max-width:900px) {
+  .main__card {
+    max-width: calc(50% - 40px);
+    padding: 0px 20px 40px 20px;
+  }
+  .main__cards {
+    padding: 40px 20px 15px 20px;
+  }
+}
+
+@media screen and (max-width:435px) {
+  .main__card {
+    max-width: 100%;
+    padding: 0px 0px 40px 0px;
+  }
+  .main__cards {
+    padding: 30px 30px 15px 30px;
+  }
+}

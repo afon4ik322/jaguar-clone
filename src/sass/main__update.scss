@@ -5,6 +5,9 @@
   justify-content: center;
   padding: 78px 90px;
   background-color: #F0F0F0;
+  @media screen and (max-width: 435px) {
+    padding: 30px;
+  }
 }
 
 .main__update-header, .main__update-desc, .main__update-button {
@@ -16,14 +19,23 @@
   font-size: 2.4rem; //24px
   font-weight: bold;
   margin-bottom: 28px;
+  @media screen and (max-width: 900px) {
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 435px) {
+    text-align: center;
+  }
 }
 
 .main__update-desc {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
   color: rgb(68, 68, 68);
   margin-bottom: 36px;
+  @media screen and (max-width: 435px) {
+    font-size: 1.5rem;
+  }
 }
 
 .main__update-button {

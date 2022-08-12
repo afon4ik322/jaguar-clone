@@ -40,4 +40,10 @@ new Swiper('.bottom-swiper', {
   slidesPerView: 3,
   spaceBetween: 40,
   slidesPerGroup: 3,
+  breakpoints: {
+    900: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+  },
 });

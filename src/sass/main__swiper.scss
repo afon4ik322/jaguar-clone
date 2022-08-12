@@ -1,7 +1,17 @@
 $red: rgb(158, 27, 50);
 
+.top-swiper-contrainer {
+  margin-top: 72px;
+  @media screen and (max-width:1020px) {
+    margin-top: 48px;
+  }
+}
+
 .top-swiper {
   height: calc(100vh - 72px); /* я гений */
+  @media screen and (max-width:1020px) {
+    height: calc(100vh - 48px);
+  }
 }
 
 .swiper-slide-image {
@@ -14,15 +24,18 @@ $red: rgb(158, 27, 50);
   height: calc(100vh - 72px);
   object-fit: cover;
   object-position: center;
+  @media screen and (max-width:1020px) {
+    height: calc(100vh - 48px);
+  }
 }
 
-.swiper .top-swiper-button-prev::after, 
-.swiper .top-swiper-button-next::after {
+.top-swiper .top-swiper-button-prev::after, 
+.top-swiper .top-swiper-button-next::after {
   color: #FFF;
   font-size: 24px;
 }
 
-.swiper .swiper-pagination-bullet {
+.top-swiper .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: transparent;
@@ -31,7 +44,7 @@ $red: rgb(158, 27, 50);
   opacity: 1;
 }
 
-.swiper .swiper-pagination-bullet-active {
+.top-swiper .swiper-pagination-bullet-active {
   background-color: #FFF;
   border: 2px solid transparent;
 }
@@ -40,6 +53,7 @@ $red: rgb(158, 27, 50);
   position: absolute;
   background-color: #FFF;
   padding: 20px;
+  max-width: 260px;
   top: 33vh;
   left: 6vw;
   text-align: left;

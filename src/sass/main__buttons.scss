@@ -1,3 +1,5 @@
+$red: rgb(158, 27, 50);
+
 .main__buttons {
   background-color: white;
   display: flex;
@@ -15,8 +17,11 @@
 .main__button:hover {
   cursor: pointer;
   .main__button-header, .main__button-icon {
-    color: rgb(158, 27, 50);
+    color: $red;
     transition: 0.5s;
+  }
+  .main__button-header span {
+    border-bottom: 1px solid $red;
   }
 }
 
@@ -42,4 +47,65 @@
 .main__button-desc {
   color: #444;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width:900px) {
+  .main__buttons {
+    padding: 0px 0px;
+    flex-wrap: wrap;
+  }
+  .main__button {
+    padding: 40px;
+    width: calc(50vw - 90px);
+  }
+  .main__button:not(:last-child) {
+    border-right: 0px solid transparent;
+  }
+  .main__button:first-child {
+    border-right: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  .main__button:nth-child(2) {
+    border-bottom: 1px solid #F0F0F0;
+  }
+  .main__button:nth-child(3) {
+    border-right: 1px solid #F0F0F0;
+  }
+}
+
+@media screen and (max-width:435px) {
+  .main__button-desc {
+    display: none;
+  }
+  .main__button-icon {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0px;
+  }
+  .main__button {
+    width: calc(100vw - 90px);
+    padding: 16px 30px;
+  }
+  .main__button a {
+    display: flex;
+    align-items: center;
+  }
+  .main__button-header {
+    margin-bottom: 0px;
+    margin-left: 24px;
+  }
+  .main__button:first-child {
+    border-right: 0px solid #F0F0F0;
+    border-bottom: 0px solid #F0F0F0;
+  }
+  .main__button:nth-child(2) {
+    border-bottom: 0px solid #F0F0F0;
+  }
+  .main__button:nth-child(3) {
+    border-right: 0px solid #F0F0F0;
+  }
+  .main__button:not(:last-child) {
+    border-bottom: 1px solid #F0F0F0;
+  }
 }

@@ -2,19 +2,33 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width:900px) {
+    display: block;
+  }
 }
 
 .main__electric-text {
   padding: 70px 40px 70px 90px;
   max-width: 40vw;
+  @media screen and (max-width:900px) {
+    max-width: 100%;
+    padding: 40px;
+  }
+  @media screen and (max-width: 435px) {
+    padding: 30px;
+  }
 }
 
 .main__electric-image img {
-  width: 64vw;
+  width: 100%;
   max-width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  @media screen and (max-width:900px) {
+    height: 430px;
+    height: 100%;
+  }
 }
 
 .main__electric-header {

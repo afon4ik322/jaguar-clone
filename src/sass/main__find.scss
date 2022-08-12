@@ -1,7 +1,7 @@
 .main__find {
   background-color: #F0F0F0;
   padding-top: 74px;
-  padding-bottom: 56px;
+  padding-bottom: 10px;
 }
 
 .main__find-header {
@@ -17,18 +17,32 @@
   font-size: 24px;
 }
 
+.bottom-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  opacity: 1;
+  margin-right: 12px !important;
+}
+
+.bottom-swiper .swiper-pagination-bullet-active {
+  background-color: black;
+  border: 2px solid transparent;
+}
+
+.bottom-swiper .swiper-pagination {
+  text-align: left;
+  position: static;
+  margin-top: 56px;
+}
+
 .swiper-button-disabled {
   visibility: hidden;
 }
 
 .bottom-swiper {
-  padding: 56px 90px !important;
-}
-
-.bottom-swiper-pagination {
-  position: static;
-  text-align: left;
-
+  padding: 56px 30px 56px 61px !important;
 }
 
 .bottom-swiper-slide {
@@ -37,11 +51,13 @@
 
 .swiper2-slide-image img {
   width: 580px;
-  height: 330px;
+  max-height: 330px;
   max-width: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 
 .swiper2-slide-image img:hover {
