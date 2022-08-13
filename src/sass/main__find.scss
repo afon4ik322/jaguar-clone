@@ -60,3 +60,44 @@
   filter: brightness(.8);
   transition: 0.5s;
 }
+
+@media screen and (max-width:740px) {
+  .bottom-swiper .swiper-pagination {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .bottom-swiper .swiper-pagination-bullet {
+    margin-right: 0px !important;
+  }
+  .bottom-swiper .swiper-pagination-bullet:not(:last-child) {
+    margin-right: 8px !important;
+  }
+}
+
+@media screen and (max-width:310px) {
+  .bottom-swiper .swiper-pagination {
+    margin-top: 12px;
+  }
+  .bottom-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+  .bottom-swiper .swiper-pagination-bullet:not(:last-child) {
+    margin-right: 5px !important;
+  }
+}
+
+@media screen and (max-width:260px) {
+  .bottom-swiper .swiper-pagination {
+    margin-top: 8px;
+  }
+  .bottom-swiper .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+  .bottom-swiper .swiper-pagination-bullet:not(:last-child) {
+    margin-right: 3px !important;
+  }
+}
