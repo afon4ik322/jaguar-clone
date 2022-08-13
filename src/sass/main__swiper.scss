@@ -5,6 +5,7 @@ $red: rgb(158, 27, 50);
   @media screen and (max-width:1020px) {
     margin-top: 48px;
   }
+  background-color: white;
 }
 
 .top-swiper {
@@ -114,7 +115,39 @@ $red: rgb(158, 27, 50);
 
 #top-swiper-pagination {
   text-align: left;
-  width: 10%;
+  width: 100%;
   left: 6vw;
   bottom: 2vw;
+}
+
+@media screen and (max-width:740px) {
+  .main__swiper-box {
+    position: static;
+  } 
+  .swiper-slide-image img {
+    height: 250px;
+  }
+  .main__swiper-box {
+    max-width: 100%;
+    text-align: center;
+  }
+  .top-swiper .top-swiper-button-prev::after, 
+  .top-swiper .top-swiper-button-next::after {
+    display: none;
+  }
+  .main__swiper-box-button {
+    display: inline-block;
+  }
+  .swiper-button {
+    display: none;
+  }
+  #top-swiper-pagination {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    top: 225px;
+  }
+  .top-swiper {
+    height: 100%;
+  }
 }

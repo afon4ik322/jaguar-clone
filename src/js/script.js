@@ -18,10 +18,6 @@ new Swiper('.top-swiper', {
     // Отключить после ручного перекл
     disableOnInteraction: false, 
   },
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true,
-  }
 });
 
 new Swiper('.bottom-swiper', {
@@ -37,13 +33,18 @@ new Swiper('.bottom-swiper', {
     clickable: true,
   },
   grabCursor: true, // Стиль курсора
-  slidesPerView: 3,
   spaceBetween: 40,
-  slidesPerGroup: 3,
+  slidesPerView: 1,
+  slidesPerGroup: 1,
   breakpoints: {
-    900: {
+    740: {
       slidesPerView: 2,
       slidesPerGroup: 2,
+      spaceBetween: 30,
     },
+    900: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 45,
   },
-});
+}});
