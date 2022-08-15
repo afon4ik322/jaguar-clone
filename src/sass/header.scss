@@ -80,3 +80,18 @@
     height: 48px;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .header-left {
+    width: 90px;
+  }
+  .header-logo {
+    width: 90px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .header-left img {
+    max-width: 86px;
+  }
+}

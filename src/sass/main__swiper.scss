@@ -157,3 +157,37 @@ $red: rgb(158, 27, 50);
     height: 100%;
   }
 }
+
+.red-circle {
+  width: 55px;
+  height: 55px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $red;
+  position: fixed;
+  top: 93px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 0.5rem;
+  color: white;
+  i {
+    padding: 2px;
+    transition: 0.5s padding;
+  }
+  @media screen and (max-width:1020px) {
+    top: 68px;
+  }
+  @media screen and (max-width:920px) {
+    display: none;
+  }
+}
+
+.red-circle:hover {
+  background-color: #141515;
+  i {
+    padding: 3px;
+  }
+}

@@ -88,3 +88,27 @@ $red: rgb(158, 27, 50);
     display: block;
   }
 }
+
+.footer__nav-button {
+  display: none;
+  @media screen and (max-width:900px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 23px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+    background-color: #F0F0F0;
+    color: $red;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 0;
+  }
+}
+
+.footer__nav-button:hover {
+  background-color: #F0F0F0;
+  color: $red;
+}
