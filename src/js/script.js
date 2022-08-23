@@ -8,7 +8,7 @@ new Swiper('.top-swiper', {
   // Буллеты, текущее положение, прогрессбар
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: true
   },
   grabCursor: true, // Стиль курсора
   loop: true,
