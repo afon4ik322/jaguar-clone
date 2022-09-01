@@ -1,5 +1,5 @@
 .header {
-  background-color: #FFF;
+  background-color: rgb(0, 0, 0);
   height: 72px;
   width: 2000px;
   max-width: 100%;
@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #151515;
 }
 
 .header-left {
@@ -40,7 +40,7 @@
     cursor: pointer;
   }
   a{
-    color: black;
+    color: white;
     font-weight: 600;
     letter-spacing: .15em;
     font-size: 8px;
@@ -60,7 +60,7 @@
     font-size: 1.3em;
   }
   li:hover {
-    background-color: #F0F0F0;
+    background-color: #0c0c0c;
     cursor: pointer;
   }
 }
